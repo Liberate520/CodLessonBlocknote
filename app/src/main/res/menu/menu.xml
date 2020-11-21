@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MenuActivity">
+
+    <item
+        android:id="@+id/action_open"
+        android:icon="@android:drawable/ic_menu_day"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom|withText"
+        android:title="Открыть">
+    </item>
+
+    <item
+        android:id="@+id/action_save"
+        android:icon="@android:drawable/ic_menu_save"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom|withText"
+        android:title="Сохранить">
+    </item>
+
+</menu>
